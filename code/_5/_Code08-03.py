@@ -1,0 +1,13 @@
+#문자열이 괄호로 감싸 있지 않으면 괄호로 감싸 주는 프로그램
+
+
+ss = input("입력 문자열 ==> ")
+print("출력 문자열 ==> ", end = '')
+
+if ss.startswith('(') == False :
+     print("(", end = '')
+
+print(ss, end = '')
+
+if ss.endswith(')') == False : ##코드 작성 부분
+     print(")", end = '')
